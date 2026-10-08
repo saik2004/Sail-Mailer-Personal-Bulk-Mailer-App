@@ -81,7 +81,7 @@ function App() {
     setResultMessage("");
 
     axios
-      .post("http://localhost:5000/sendemail", {
+      .post("https://sail-mailer-personal-bulk-mailer-app.onrender.com/sendemail", {
         gmail: gmail,
         appPassword: appPassword,
         subject: subject,
